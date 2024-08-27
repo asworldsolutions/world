@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+ /*Body de paginas */
+.bod2{
+    background: linear-gradient(70deg, rgb(131, 189, 243), rgb(247, 153, 226));
+    font-size: 15px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+
+.header{
+    background-color:61add6 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    overflow-wrap: break-word;
+    
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s; 
+    
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+ /*Enlaces internos*/
+.header .nav-links{
+    list-style: none;
+
+    
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;  
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    
+}
+.header .nav-links li a:hover{
+    color: aquamarine;
+}
+
+ /*Pie de pagina */
+footer{
+    width: auto;
+     margin-top: 10px;
+     padding: 0%;
+    }
+     /*Logo de Whattssap */
+.what{
+    width:50px;
+    height: 45px;
+    left: 0px;
+    position: relative;
+ 
+}
+ /*logo de facebook*/
+.face{
+    width:50px;
+    height: 35px;
+    left: 0px;
+    position: relative;
+
+}
+.carousel-item {
+    padding: 0%;
+    width:auto;
+    height:550px ;
+}
+.col{
+    text-align: center;
+}
